@@ -23,7 +23,7 @@ sitemap:
 
 ### 1. ruby 설치
 아래 링크에 따라 설치 합니다.  
-https://ryureka.github.io/blog/GitHub-블로그-만들기(2)-개발-환경-구축하기/
+[ruby 설치 가이드](https://ryureka.github.io/blog/GitHub-블로그-만들기(2)-개발-환경-구축하기/ "ryureka님 블로그")
 
 ## Github Pages로 블로그 만들기
 Jekyll Theme 중 하나인 minimal mistake를 활용합니다.
