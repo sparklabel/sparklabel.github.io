@@ -25,15 +25,6 @@ sitemap:
 아래 링크에 따라 설치 합니다.  
 https://ryureka.github.io/blog/GitHub-블로그-만들기(2)-개발-환경-구축하기/
 
-### 2. favicon 준비
-아이콘으로 사용할 작은 벡터 이미지 파일(ex: png) 준비 후 확장자 'ico' 파일로 바꿔줍니다. 
-/assets 폴더 내에 favicon.ico 파일을 넣어줍니다.
-_includes 폴더 내에 head.html의 위쪽에 아래 내용을 추가해줍니다
-```python
-<!-- 20210119 ADD favicon-->
-<link rel="icon" type="image/png" href="/assets/favicon.ico">
-```
-
 ## Github Pages로 블로그 만들기
 Jekyll Theme 중 하나인 minimal mistake를 활용합니다.
 
@@ -45,14 +36,14 @@ Jekyll Theme 중 하나인 minimal mistake를 활용합니다.
 ### 2. jekyll theme fork - minimal mistake
 [jekyll Theme (minimal mistake) Repository](https://github.com/mmistakes/minimal-mistakes "minimal mistake")로 방문하여 우측 상단 'fork'클릭 후 'USERNAME/minimal-mistakes' Repository 생성합니다.
 
-<center><img src="github_blog_1_2.png" width="80%"></center>
+<center><img src="/assets/images/github_blog_1_2.png" width="80%"></center>
 
 ### 3. 리포지토리 이름 변경
 생성된 레포지토리 내 __'Settings ==> General'__ 를 클릭하거나 아래 URL로 이동 후, Repository name을 'USERNAME.github.io'를 입력하고 'Rename'을 클릭합니다.
 ```html
 https://github.com/USERNAME/minimal-mistakes/settings
 ```
-<center><img src="github_blog_1_3.png" width="80%"></center>
+<center><img src="/assets/images/github_blog_1_3.png" width="80%"></center>
 
 ### 4. 로컬 저장소 생성
 CLI에서 로컬 저장소로 사용할 곳을 찾아 원격 저장소의 소스를 clone합니다.  
@@ -79,7 +70,7 @@ $ cd ..
 ```html
 https://github.com/USERNAME/minimal-mistakes/settings/pages
 ```
-<center><img src="github_blog_1_6.png" width="80%"></center>
+<center><img src="/assets/images/github_blog_1_6.png" width="80%"></center>
 
 'Your site is published at https://USERNAME.github.io/'에 녹색불이 들어와 있으면 OK입니다.
 
@@ -88,4 +79,4 @@ https://github.com/USERNAME/minimal-mistakes/settings/pages
 ```html
 https://USERNAME.github.io/
 ```
-<center><img src="github_blog_1_7.png" width="80%"></center>
+<center><img src="/assets/images/github_blog_1_7.png" width="80%"></center>
