@@ -1,6 +1,6 @@
 ---
 title:  "[Data Structure] Stack, Queue and Deque"
-excerpt: "YearDream offline group4"
+excerpt: "스텍, 큐 그리고 덱에 대해 알아보자"
 
 toc: true                         # 목차
 toc_sticky: true                  # 목차 사이드바 고정
