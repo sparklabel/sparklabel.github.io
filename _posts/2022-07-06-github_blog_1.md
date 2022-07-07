@@ -1,6 +1,6 @@
 ---
 title:  "[Github Pages] Jekyll Theme로 Github 블로그 만들기_1"
-excerpt: "YearDream offline group4"
+excerpt: "Minimal Mistake 테마를 활용하여 Github Pages를 쉽게 만들어보자"
 
 toc: true                         # 목차
 toc_sticky: true                  # 목차 사이드바 고정
