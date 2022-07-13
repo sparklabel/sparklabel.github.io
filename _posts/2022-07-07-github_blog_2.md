@@ -81,10 +81,10 @@ $ bundle install
 $ bundle exec jekyll serve --host localhost --port 4000
 $ cd ..
 ```
-<center><img src="../../assets/images/github_blog_2_3.png" width="80%"></center>
+<center><img src="../../assets/images/github_blog_2_3.png" width="100%"></center>
 
 ### 5. 로컬 사이트 확인 
-```code
+```html
 http://localhost:4000
 ```
 
@@ -96,7 +96,7 @@ http://localhost:4000
 ```python
 $ cd USERNAME.github.io
 $ git add .
-$ git commit -m "Create a temporary post {ISSUE_NUM}"
+$ git commit -m "Create a temporary post #{ISSUE_NUM}"
 $ cd ..
 ```
 
@@ -109,11 +109,11 @@ $ git merge --no-ff feature/{ISSUE_NUM}
 $ git push origin gh-pages
 $ cd ..
 ```
-<center><img src="../../assets/images/github_blog_2_2.png" width="80%"></center>
+<center><img src="../../assets/images/github_blog_2_5.png" width="80%"></center>
 
 ### 8. 이슈 닫기
 + 모든 이슈가 완결되었으면 github 홈페이지의 오픈된 이슈를 닫아줍니다.
-<center><img src="../../assets/images/github_blog_2_2.png" width="80%"></center>  
+<center><img src="../../assets/images/github_blog_2_6.png" width="80%"></center>  
 
 이번 포스팅의 내용은 처음엔 매우 번거롭고 좀 복잡해보일 수도 있겠으나 몇번 반복하다 보면 식사 후 양치질과 같이 익숙해져 아주 쉽고 당연한 절차로 받아들이게 될거에요. :+1:  
 <br>
@@ -124,7 +124,7 @@ $ cd ..
 
 ### :one: jekyll 오류 해결
 + 처음부터 순서를 뒤죽박죽 깔게된 저의 전철을 밟지 마시길 바라며...
-https://velog.io/@minji-o-j/jekyll-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0
+도움받은 블로그 링크걸어 둬요~ [jekyll 오류 해결 (부제: github 블로그 만들기)](https://velog.io/@minji-o-j/jekyll-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0)
 
 ### :two: favicon 준비 (favicon이 무엇인지는 [여기](https://en.wikipedia.org/wiki/Favicon "Favicon") 또는 [저기](https://namu.wiki/w/%ED%8C%A8%EB%B9%84%EC%BD%98 ))
 아이콘으로 사용할 작은 벡터 이미지 파일(ex: png) 준비 후 확장자 'ico' 파일로 바꿔줍니다.  
