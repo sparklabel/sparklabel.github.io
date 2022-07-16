@@ -25,7 +25,7 @@ sitemap:
 ### 1. github 원격 repo 내 이슈 등록
 첫 시작은 github 홈페이지로 로그인하여 이전 글에서 만들어둔 'USERNAME.github.io' repository로 들어가 신규 posting 작성을 위한 이슈를 오픈합니다.  
 + repo 내 'Issue' :arrow_right: 'New Issue'
-<center><img src="../../assets/images/github_blog_2_1.png" width="80%"></center>
+<center><img src="/assets/images/github_blog_2_1.png" width="80%" id="magnific"></center>
 
 + 또는 아래 URL로 직접 접속
 ```html
@@ -33,7 +33,7 @@ https://github.com/USERNAME/USERNAME.github.io/issues/new
 ```
 
 + 이슈 제목 및 내용 작성 :arrow_right: 'Submit new issue' 클릭 :arrow_right: 이슈 번호 확인 필수!!
-<center><img src="../../assets/images/github_blog_2_2.png" width="80%"></center>
+<center><img src="/assets/images/github_blog_2_2.png" width="80%" id="magnific"></center>
 
 
 ### 2. 이슈 번호와 일치하는 브랜치 생성
@@ -81,14 +81,14 @@ $ bundle install
 $ bundle exec jekyll serve --host localhost --port 4000
 $ cd ..
 ```
-<center><img src="../../assets/images/github_blog_2_3.png" width="100%"></center>
+<center><img src="/assets/images/github_blog_2_3.png" width="100%" id="magnific"></center>
 
 ### 5. 로컬 사이트 확인 
 ```html
 http://localhost:4000
 ```
 
-<center><img src="../../assets/images/github_blog_2_4.png" width="80%"></center>
+<center><img src="/assets/images/github_blog_2_4.png" width="80%" id="magnific"></center>
 + 'ctrl + c' 를 눌러 로컬 서버 중지하여 확인 종료
 
 ### 6. 정상 확인 후, 이슈 커밋
@@ -109,11 +109,11 @@ $ git merge --no-ff feature/{ISSUE_NUM}
 $ git push origin gh-pages
 $ cd ..
 ```
-<center><img src="../../assets/images/github_blog_2_5.png" width="80%"></center>
+<center><img src="/assets/images/github_blog_2_5.png" width="80%" id="magnific"></center>
 
 ### 8. 이슈 닫기
 + 모든 이슈가 완결되었으면 github 홈페이지의 오픈된 이슈를 닫아줍니다.
-<center><img src="../../assets/images/github_blog_2_6.png" width="80%"></center>  
+<center><img src="/assets/images/github_blog_2_6.png" width="80%" id="magnific"></center>  
 
 이번 포스팅의 내용은 처음엔 매우 번거롭고 좀 복잡해보일 수도 있겠으나 몇번 반복하다 보면 식사 후 양치질과 같이 익숙해져 아주 쉽고 당연한 절차로 받아들이게 될거에요. :+1:  
 <br>
